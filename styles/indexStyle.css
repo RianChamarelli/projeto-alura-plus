@@ -1,0 +1,134 @@
+:root{
+    --branco-principal: #FFFFFF;
+    --branco-secundario: #F9F9F9; 
+    --cor-de-fundo: #00030C;
+    --cinza: #C0C0C0;
+    --azul: #167BF7;
+} 
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 47% 53%;
+    align-items: center;
+}
+
+.container__cabecalho{
+    background-image: url("../public/assets/images/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.cabecalho{
+    margin: 0 6rem;
+    text-align: center;
+}
+
+.cabecalho__texto--principal{
+    color: var(--branco-principal);
+    margin: 1rem 4rem;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.cabecalho__imagem{
+    margin: 1rem 0 2rem 0;
+}
+
+.botao-assinar{
+    display: block;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: var(--azul);
+    color: var(--branco-principal);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.botao-assinar-secundario{
+    background-color: transparent;
+    border: solid 1px var(--branco-principal);
+}
+
+.cabecalho__texto--secundario{
+    color: var(--cinza);
+    font-size: 12px;  
+}
+
+.container__secundario{
+    height: 70vh;
+    grid-template-columns: 50% 50%;
+    margin: 0 15%;
+}
+
+.titulo{
+    color: var(--branco-principal);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.subtitulo{
+    color: var(--branco-secundario);
+}
+
+.margin-right{
+    margin-right: 5rem;
+}
+
+.botao-assinar-terciario{
+    display: inline-block;
+    margin: 1rem 0 0 0;
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivo__lista{
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-itens{
+    color: var(--branco-principal);
+    font-size: 32px;
+    font-weight: 700;
+    margin: 1.5rem 0;
+}
+
+.footer{
+    margin: 5%;
+    text-align: center;
+}
+
+.footer__imagem{
+    margin-bottom: 2rem;
+}
+.footer__lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco-principal);
+}
+
+li a{
+    margin: 0 1rem 0 0;
+}
+
+.footer__texto{
+    color: #C0C0C0;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 1.2rem;
+}
